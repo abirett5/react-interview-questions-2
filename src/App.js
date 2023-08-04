@@ -1,9 +1,10 @@
+import React from "react";
 import "./styles.css";
 
-export default function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends React.component{
+  render() {
+    return <button>Increment</button>;
+  }
 }
+
+export default App;
